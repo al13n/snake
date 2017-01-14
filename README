@@ -1,0 +1,21 @@
+
+build:
+(optional)
+- Just to get/build into a new copy of the js:
+	npm install
+	cd app
+	gulp clean
+	gulp dist
+
+Play:
+Run a server and goto localhost:<port>, or just open index.html.
+Press 'space' to begin the game, 'space' to pause, and 'space' to start again after the game ends. 
+Press 'up', 'down', 'right', 'left' keys to move the snake around.
+
+Features:
+
+- Levels, score, difficulty(determined by sort of speed of movement)
+- Gulp -> takes all the files in the js folder, and concatenates them in order.
+- The snake dies on collision with the wall, and with itself.
+
+ 
